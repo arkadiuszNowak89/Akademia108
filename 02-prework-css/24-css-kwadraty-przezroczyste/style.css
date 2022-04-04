@@ -1,0 +1,25 @@
+#section-1 {
+  background-color: #f5f5dd;
+  height: auto;
+  width: 20%;
+  margin: 10% auto;
+  padding: 1%;
+}
+.divs {
+  width: 100px;
+  height: 100px;
+  margin: 5px auto;
+}
+
+#small-div1 {
+  background-color: rgba(0, 0, 0, 1);
+}
+#small-div2 {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+#small-div3 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#small-div4 {
+  background-color: rgba(0, 0, 0, 0.25);
+}

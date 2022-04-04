@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- normalize.css -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/e2ad642f74.js" crossorigin="anonymous"></script>
+    <!-- My Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="main-header-content">
+        <h1>Front End Developer</h1>
+        <hr />
+        <p>HTML <span>&#x2022</span> CSS <span>&#x2022</span> JavaScript</p>
+        <a href="#portfolio" class="btn">Dowiedz się więcej</a>
+      </div>
+    </header>
+
+    <nav class="main-menu">
+        <label for="drop-nav">Menu</label>
+        <input type="checkbox" id="drop-nav">
+        <ul>
+            <li class="menu-item"><a href="#about">O mnie</a></li>
+            <li class="menu-item"><a href="#portfolio">Portfolio</a></li>
+            <li class="menu-item"><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="about">
+        <div class="container">
+            <header class="section-header">
+                <h2>O mnie</h2>
+                <hr>
+            </header>
+            <img src="img/about.jpg" alt="Owner photo" class="about-img">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus enim sit deleniti aliquam tenetur qui quo beatae atque numquam reprehenderit? Odit reiciendis tempore quisquam eius cupiditate reprehenderit hic laboriosam, quos in voluptatum sunt voluptates veniam libero dignissimos sapiente aperiam praesentium natus asperiores a dolorem dolore minus! Expedita, deleniti? Architecto, sit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur placeat, ab aspernatur quod quam enim possimus blanditiis! Suscipit, possimus quas beatae debitis necessitatibus ipsam, dolores dignissimos illum rerum non minima at vel nesciunt, voluptatum doloremque praesentium natus perferendis. Explicabo, quisquam!</p>
+            <a href="" class="btn">Moje portfolio</a>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <header class="section-header">
+                <h2>Portfolio</h2>
+                <hr>
+            </header>
+            <div class="portfolio-wrapper">
+                <!-- a.portfolio-item*12>img[src="img/portfolio/photo-$.jpg" alt="Zdjęcie projektu $"]+h3{Projekt} -->
+                <a href="" class="portfolio-item">
+                    <img src="img/portfolio/photo-1.jpg" alt="Zdjęcie projektu">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item">
+                    <img src="img/portfolio/photo-2.jpg" alt="Zdjęcie projektu 2">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item">
+                    <img src="img/portfolio/photo-3.jpg" alt="Zdjęcie projektu 3">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item">
+                    <img src="img/portfolio/photo-4.jpg" alt="Zdjęcie projektu 4">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item">
+                    <img src="img/portfolio/photo-5.jpg" alt="Zdjęcie projektu 5">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item">
+                    <img src="img/portfolio/photo-6.jpg" alt="Zdjęcie projektu 6">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item">
+                    <img src="img/portfolio/photo-7.jpg" alt="Zdjęcie projektu 7">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item">
+                    <img src="img/portfolio/photo-8.jpg" alt="Zdjęcie projektu 8">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item">
+                    <img src="img/portfolio/photo-9.jpg" alt="Zdjęcie projektu 9">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item">
+                    <img src="img/portfolio/photo-10.jpg" alt="Zdjęcie projektu 10">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item">
+                    <img src="img/portfolio/photo-11.jpg" alt="Zdjęcie projektu 11">
+                    <h3>Projekt</h3>
+                </a>
+                <a href="" class="portfolio-item">
+                    <img src="img/portfolio/photo-12.jpg" alt="Zdjęcie projektu 12">
+                    <h3>Projekt</h3>
+                </a>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <header class="section-header">
+                <h2>Kontakt</h2>
+                <hr>
+            </header>
+            <form action="">
+                <input type="text" placeholder="Imię" name="name">
+                <input type="email" placeholder="E-mail" name="email">
+                <textarea placeholder="Wiadomość" name="msg"></textarea>
+                <input type="submit" class="btn">
+            </form>
+
+            <div class="social-links">
+                <a href="" class="social-link"><i class="fa-brands fa-facebook-square"></i></a>
+                <a href="" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                <a href="" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                <a href="" class="social-link"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>Copyright ©️ Hogwart - Szkoła Magii i Czarodziejstwa</p>
+        </div>
+    </footer>
+  </body>
+</html>

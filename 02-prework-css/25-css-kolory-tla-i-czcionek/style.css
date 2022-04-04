@@ -1,0 +1,51 @@
+section {
+  background-color: bisque;
+  width: 40%;
+  margin: 10% auto;
+  padding: 10px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: fantasy;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  color: aliceblue;
+  background-color: rgb(35, 129, 211);
+}
+
+h2 {
+  font-size: 30px;
+  text-decoration: underline solid 2px;
+  color: rgb(24, 119, 21);
+  background-color: rgb(224, 226, 228);
+}
+
+p {
+  font-size: 19px;
+  text-align: justify;
+}
+
+h1 + p {
+  background-color: rgb(145, 137, 128);
+  color: antiquewhite;
+}
+
+h2 + p {
+  background-color: rgb(116, 110, 104);
+  color: rgb(190, 190, 190);
+}
+
+#list {
+  width: 100px;
+  margin: 50px auto;
+  text-align: left;
+  padding: 10px;
+  color: rgb(224, 224, 73);
+  background-color: rgb(87, 67, 67);
+}

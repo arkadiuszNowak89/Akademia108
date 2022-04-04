@@ -1,0 +1,18 @@
+body * {
+  border: 2px solid black;
+}
+
+thead {
+  background-color: rgb(70, 62, 62);
+  color: white;
+}
+
+th {
+  padding: 5px;
+}
+
+tbody tr td {
+  font-size: 20px;
+  padding: 10px;
+  font-family: sans-serif;
+}

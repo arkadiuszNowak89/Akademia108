@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  height: 600px;
+  margin: 10vh auto;
+  background-color: #fff;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.sq {
+  margin: 2px;
+  width: 32%;
+  height: 32%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+
+  background-color: yellow;
+}
+
+.cir {
+  height: 50%;
+  flex-basis: 50%;
+
+  background-color: blue;
+  border-radius: 50%;
+}
+
+.sq-1 {
+  background-color: rgb(226, 95, 63);
+}
+.sq-2 {
+  background-color: rgb(94, 115, 212);
+}
+.sq-3 {
+  background-color: rgb(119, 98, 93);
+}
+.sq-4 {
+  background-color: rgb(150, 226, 63);
+}
+.sq-5 {
+  background-color: rgb(20, 9, 6);
+}
+.sq-6 {
+  background-color: rgb(145, 155, 108);
+}
+.sq-7 {
+  background-color: rgb(184, 169, 180);
+}
+.sq-8 {
+  background-color: rgb(185, 185, 185);
+}
+.sq-9 {
+  background-color: rgb(42, 179, 15);
+}
+
+.cir-1 {
+  background-color: rgb(226, 226, 226);
+}
+.cir-2 {
+  background-color: rgb(79, 63, 226);
+}
+.cir-3 {
+  background-color: rgb(161, 152, 20);
+}
+.cir-4 {
+  background-color: rgb(85, 48, 39);
+}
+.cir-5 {
+  background-color: rgb(255, 248, 246);
+}
+.cir-6 {
+  background-color: rgb(63, 79, 226);
+}
+.cir-7 {
+  background-color: rgb(167, 241, 48);
+}
+.cir-8 {
+  background-color: rgb(161, 218, 134);
+}
+.cir-9 {
+  background-color: rgb(31, 155, 192);
+}

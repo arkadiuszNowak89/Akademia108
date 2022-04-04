@@ -1,0 +1,15 @@
+#section-1 {
+  background-color: #808080;
+  width: 20rem;
+  text-align: center;
+  padding: 1px;
+}
+h1 {
+  color: white;
+}
+h1 ~ div {
+  height: 10rem;
+  width: 10rem;
+  background-color: #fea500;
+  margin: 1rem auto;
+}

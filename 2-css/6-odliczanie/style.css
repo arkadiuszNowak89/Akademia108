@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: bisque;
+}
+
+p {
+  font-size: 80px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  visibility: hidden;
+  position: absolute;
+}
+
+p span {
+  font-size: 140px;
+}
+
+@keyframes counting {
+  0% {
+    visibility: visible;
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes show-up-permit {
+  0% {
+    visibility: visible;
+  }
+}
+
+.p-10 {
+  animation: counting 1s ease-out 1 0s;
+}
+.p-9 {
+  animation: counting 1s ease-out 1 1s;
+}
+.p-8 {
+  animation: counting 1s ease-out 1 2s;
+}
+.p-7 {
+  animation: counting 1s ease-out 1 3s;
+}
+.p-6 {
+  animation: counting 1s ease-out 1 4s;
+}
+.p-5 {
+  animation: counting 1s ease-out 1 5s;
+}
+.p-4 {
+  animation: counting 1s ease-out 1 6s;
+}
+.p-3 {
+  animation: counting 1s ease-out 1 7s;
+}
+.p-2 {
+  animation: counting 1s ease-out 1 8s;
+}
+.p-1 {
+  animation: counting 1s ease-out 1 9s;
+}
+.p-end {
+  padding: 40px 80px;
+  color: rgb(31, 116, 202);
+  font-weight: 600;
+
+  animation: show-up-permit 1s ease-out infinite 10s;
+}

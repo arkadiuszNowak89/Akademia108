@@ -1,0 +1,28 @@
+.mother-square {
+  width: 400px;
+  height: 400px;
+  background-color: #a6a9b6;
+  border: 10px solid #666360;
+  position: relative;
+  z-index: 10;
+}
+
+.child-square {
+  width: 200px;
+  height: 200px;
+  z-index: 20;
+}
+
+.child-square-lightgray {
+  background-color: #e4e4e4;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.child-square-orange {
+  background-color: #ff912e;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}

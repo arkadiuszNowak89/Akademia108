@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+form {
+  background-color: #213b50;
+  color: #ffffff;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 2px;
+}
+
+[name] {
+  background-color: #2b4a64;
+  color: #ffffff;
+  width: 50%;
+  margin-bottom: 10px;
+  border: 1px solid #2b4a64;
+  padding: 5px;
+}
+
+[name]:focus {
+  background-color: #4e708c;
+  border-color: #ffffff;
+}
+
+input[type="submit"] {
+  background-color: #1ac056;
+  padding: 10px 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+input[type="submit"]:hover {
+  background-color: #46e881;
+  cursor: pointer;
+}
+
+label[for*="male"],
+input[type="checkbox"] + label {
+  display: inline;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+}

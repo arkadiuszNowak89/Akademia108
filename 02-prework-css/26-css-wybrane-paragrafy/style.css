@@ -1,0 +1,13 @@
+p {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.marked {
+  background-color: blue;
+}
+
+.shadow {
+  opacity: 0.5;
+}
