@@ -11,6 +11,7 @@ let cities = [
 function createListElement(city) {
   const li = document.createElement("li");
   li.innerText = city;
+  li.classList.add("city");
   return li;
 }
 function createList(arrCities) {

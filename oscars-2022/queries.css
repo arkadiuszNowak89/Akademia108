@@ -1,0 +1,117 @@
+@media (max-width: 1250px) {
+  .section {
+    margin-top: 10vh;
+  }
+
+  .main-header {
+    height: 50vh;
+    background-size: cover;
+  }
+
+  .about {
+    height: 100vh;
+    padding: 10px;
+  }
+
+  .about img {
+    position: static;
+    margin: 1%;
+    object-fit: cover;
+  }
+
+  .about p {
+    width: 50%;
+  }
+
+  .about .about-imgs {
+    width: 45%;
+    height: 100%;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .slide {
+    height: 100%;
+  }
+}
+
+@media (max-width: 940px) {
+  .main-header {
+    height: 40vh;
+  }
+
+  .section {
+    margin-top: 20px;
+  }
+
+  .about {
+    height: auto;
+  }
+
+  .about .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .about p {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .about .about-imgs {
+    width: 75%;
+  }
+
+  .winners-tab {
+    width: 95%;
+  }
+
+  .slide img {
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+
+  .slide p {
+    font-size: 20px;
+  }
+
+  .form-window {
+    width: 80%;
+    height: 80vh;
+  }
+}
+
+@media (max-width: 700px) {
+  .main-header {
+    height: 30vh;
+  }
+  .about .about-imgs {
+    width: 100%;
+  }
+
+  .form-window {
+    height: 60vh;
+  }
+
+  .news-slider .btns-slide {
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 550px) {
+  .about img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .slide img {
+    height: 20vh;
+  }
+}
