@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: bisque;
+}
+
+p {
+  font-size: 80px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+}
+
+p span {
+  font-size: 140px;
+}
+
+.p-end {
+  padding: 40px 80px;
+  color: rgb(31, 116, 202);
+  font-weight: 600;
+}
