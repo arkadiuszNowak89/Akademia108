@@ -17,7 +17,9 @@ const paramsOut = {
 };
 
 function runAnimation(t) {
-  if (dotsContJQ.hasClass('hidden')) return;
+  if (dotsContJQ.hasClass('hidden')) {
+    return;
+  }
   dotsJQ.eq(0).animate(paramsIn, t, () => {
     dotsJQ.eq(0).animate(paramsOut, t - 100);
     dotsJQ.eq(1).animate(paramsIn, t, () => {
